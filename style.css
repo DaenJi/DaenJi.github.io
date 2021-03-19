@@ -1,6 +1,8 @@
 .container {
   position: relative;
-  width: 50%;
+  /* width: 50%; */
+  width: 1920px;
+  height: 1080px;
 }
 
 .image {
@@ -17,13 +19,13 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
   transition: .5s ease;
-  background-image: url('페이지2-1.png');
+  opacity: 0;
+  background-color: plum;
 }
 
-.container:hover .overlay {
-  opacity: 1;
+.image:hover .overlay {
+  opacity: 0.33;
 }
 
 .text {
